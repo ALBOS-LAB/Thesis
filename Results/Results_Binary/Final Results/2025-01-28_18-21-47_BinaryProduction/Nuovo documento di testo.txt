@@ -1,0 +1,7 @@
+Area_Res_Max = 1000000
+Area_Ind_Max = 20000
+Area_Com_Max = 50000
+Objective: 15024860911.062794
+Residential: Chosen = 5136, Total = 7837
+Industrial: Chosen = 39, Total = 60
+Commercial: Chosen = 174, Total = 265
