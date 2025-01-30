@@ -1,0 +1,1 @@
+Optimal Area_Res_Max: 500000.0, with Objective Value: 10063697916.735401
