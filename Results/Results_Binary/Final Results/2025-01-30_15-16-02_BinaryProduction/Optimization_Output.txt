@@ -1,0 +1,44 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-05-30
+Set parameter MIPGap to value 0.005
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 17521 rows, 16923 columns and 69795329 nonzeros
+Model fingerprint: 0x26244ca6
+Variable types: 8761 continuous, 8162 integer (8162 binary)
+Coefficient statistics:
+  Matrix range     [9e-01, 1e+03]
+  Objective range  [1e+00, 1e+06]
+  Bounds range     [1e+00, 2e+07]
+  RHS range        [5e+02, 2e+06]
+Found heuristic solution: objective -1.96857e+13
+Presolve removed 0 rows and 0 columns (presolve time = 8s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 12s) ...
+Presolve removed 6063 rows and 0 columns (presolve time = 18s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 20s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 26s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 31s) ...
+Presolve removed 12126 rows and 10436 columns (presolve time = 54s) ...
+Presolve removed 12126 rows and 10436 columns (presolve time = 58s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 60s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 70s) ...
+Presolve removed 12126 rows and 14226 columns (presolve time = 76s) ...
+Presolve removed 17521 rows and 16923 columns
+Presolve time: 77.36s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 82.02 seconds (27.88 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 3: -1.96982e+13 -1.96982e+13 -1.96857e+13 
+No other solutions better than -1.96982e+13
+
+Optimal solution found (tolerance 5.00e-03)
+Warning: max constraint violation (9.7081e-06) exceeds tolerance
+Best objective -1.969815979142e+13, best bound -1.969815979142e+13, gap 0.0000%
+Optimal Area_Res_Max: 20000000.0, with Objective Value: -19698159791416.97
+penalty factor 1000000
+NOT WORKING

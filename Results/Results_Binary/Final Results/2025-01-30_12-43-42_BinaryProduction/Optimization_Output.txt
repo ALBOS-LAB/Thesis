@@ -1,0 +1,108 @@
+Set parameter MIPGap to value 0.005
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 17521 rows, 16923 columns and 69795329 nonzeros
+Model fingerprint: 0xff0ac764
+Variable types: 8761 continuous, 8162 integer (8162 binary)
+Coefficient statistics:
+  Matrix range     [9e-01, 1e+03]
+  Objective range  [1e-03, 1e+00]
+  Bounds range     [1e+00, 2e+07]
+  RHS range        [5e+02, 2e+06]
+Found heuristic solution: objective 3.143353e+11
+Presolve removed 0 rows and 0 columns (presolve time = 6s) ...
+Presolve removed 0 rows and 0 columns (presolve time = 11s) ...
+Presolve removed 5369 rows and 0 columns (presolve time = 18s) ...
+Presolve removed 10738 rows and 5369 columns (presolve time = 21s) ...
+Presolve removed 10738 rows and 5369 columns (presolve time = 27s) ...
+Presolve removed 10738 rows and 5369 columns (presolve time = 30s) ...
+Presolve removed 10738 rows and 5369 columns (presolve time = 37s) ...
+Presolve removed 10738 rows and 9742 columns (presolve time = 74s) ...
+Presolve removed 10738 rows and 9742 columns (presolve time = 81s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 88s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 91s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 99s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 100s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 106s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 112s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 117s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 121s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 125s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 133s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 135s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 140s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 146s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 152s) ...
+Presolve removed 10738 rows and 9743 columns (presolve time = 156s) ...
+Presolve removed 10683 rows and 9688 columns
+Presolve time: 156.13s
+Presolved: 6838 rows, 7235 columns, 25703869 nonzeros
+Found heuristic solution: objective 6.000474e+09
+Variable types: 3391 continuous, 3844 integer (1776 binary)
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.5012396e+09   1.167244e+08   0.000000e+00    174s
+     352    3.8257992e+09   4.430122e+07   0.000000e+00    177s
+     663    4.0260719e+09   3.079556e+07   0.000000e+00    180s
+    1285    4.3221617e+09   1.586200e+07   0.000000e+00    187s
+    1596    4.4370032e+09   1.063143e+07   0.000000e+00    192s
+    1818    4.5075903e+09   2.214586e+07   0.000000e+00    197s
+    1926    4.5354292e+09   6.695628e+06   0.000000e+00    200s
+    2142    4.5829990e+09   4.948069e+06   0.000000e+00    206s
+    2304    4.6098522e+09   6.188688e+06   0.000000e+00    211s
+    2574    4.6452340e+09   5.657765e+06   0.000000e+00    216s
+    2736    4.6598494e+09   4.436926e+06   0.000000e+00    220s
+    2898    4.6680541e+09   3.976872e+06   0.000000e+00    225s
+    3060    4.6737463e+09   2.959886e+06   0.000000e+00    230s
+    3222    4.6803293e+09   4.194254e+06   0.000000e+00    237s
+    3473    4.6816169e+09   5.534783e+06   0.000000e+00    240s
+    3743    4.6849069e+09   3.799455e+06   0.000000e+00    246s
+    4127    4.6882253e+09   2.699246e+06   0.000000e+00    252s
+    4235    4.6893652e+09   3.167659e+06   0.000000e+00    256s
+    4397    4.6922650e+09   5.011760e+06   0.000000e+00    260s
+    4505    4.6966742e+09   5.477044e+06   0.000000e+00    267s
+    4559    4.6977000e+09   1.831756e+06   0.000000e+00    271s
+    4667    4.7000128e+09   6.550883e+06   0.000000e+00    276s
+    4775    4.7013101e+09   1.304761e+06   0.000000e+00    280s
+    4883    4.7043250e+09   2.032425e+06   0.000000e+00    286s
+    4991    4.7063436e+09   3.589912e+06   0.000000e+00    291s
+    5153    4.7084467e+09   2.586030e+06   0.000000e+00    298s
+    5261    4.7104972e+09   8.993788e+05   0.000000e+00    302s
+    5369    4.7126254e+09   1.456549e+06   0.000000e+00    307s
+    5477    4.7139805e+09   1.576891e+06   0.000000e+00    312s
+    5585    4.7158003e+09   4.860774e+06   0.000000e+00    316s
+    5693    4.7172029e+09   9.521623e+05   0.000000e+00    322s
+    5801    4.7190755e+09   3.232552e+06   0.000000e+00    328s
+    5855    4.7199147e+09   9.468210e+05   0.000000e+00    332s
+    5963    4.7209531e+09   5.925350e+05   0.000000e+00    337s
+    6017    4.7214179e+09   4.115716e+06   0.000000e+00    340s
+    6125    4.7224703e+09   6.531386e+05   0.000000e+00    345s
+    6287    4.7235540e+09   1.797838e+05   0.000000e+00    352s
+    6395    4.7242577e+09   1.369830e+06   0.000000e+00    357s
+    6503    4.7247757e+09   1.718651e+05   0.000000e+00    360s
+    6665    4.7254224e+09   6.305103e+04   0.000000e+00    367s
+    6827    4.7259113e+09   3.048387e+04   0.000000e+00    371s
+    6959    4.7266278e+09   0.000000e+00   0.000000e+00    373s
+
+Root relaxation: objective 4.726628e+09, 6959 iterations, 201.68 seconds (6.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4.7266e+09    0    4 6.0005e+09 4.7266e+09  21.2%     -  373s
+H    0     0                    4.726631e+09 4.7266e+09  0.00%     -  375s
+
+Explored 1 nodes (6959 simplex iterations) in 376.40 seconds (67.86 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 4.72663e+09 6.00047e+09 3.14335e+11 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 4.726630990540e+09, best bound 4.726627816481e+09, gap 0.0001%
+Optimal Area_Res_Max: 50.0, with Objective Value: 4726630990.540198
+Penalization 0.001

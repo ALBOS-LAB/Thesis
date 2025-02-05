@@ -1,0 +1,32 @@
+Set parameter MIPGap to value 0.005
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 17520 rows, 16923 columns and 69787492 nonzeros
+Model fingerprint: 0x9e7da0d1
+Variable types: 8761 continuous, 8162 integer (8162 binary)
+Coefficient statistics:
+  Matrix range     [9e-01, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 2e+07]
+  RHS range        [3e+06, 1e+07]
+Found heuristic solution: objective 1.298455e+11
+Presolve removed 0 rows and 0 columns (presolve time = 7s) ...
+Presolve removed 8760 rows and 0 columns (presolve time = 11s) ...
+Presolve removed 13247 rows and 12650 columns (presolve time = 15s) ...
+Presolve removed 17520 rows and 16923 columns (presolve time = 21s) ...
+Presolve removed 17520 rows and 16923 columns
+Presolve time: 21.30s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 26.29 seconds (11.12 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 3: 1.16535e+11 1.16535e+11 1.29846e+11 
+
+Optimal solution found (tolerance 5.00e-03)
+Warning: max constraint violation (2.4512e-06) exceeds tolerance
+Best objective 1.165346468581e+11, best bound 1.165346468581e+11, gap 0.0000%
+Optimal Area_Res_Max: 5000000.0, with Objective Value: 116534646858.05225

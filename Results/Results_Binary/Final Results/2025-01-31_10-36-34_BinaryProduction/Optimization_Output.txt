@@ -1,0 +1,46 @@
+Set parameter Username
+Academic license - for non-commercial use only - expires 2025-05-30
+Set parameter MIPGap to value 0.005
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 17521 rows, 16923 columns and 69795329 nonzeros
+Model fingerprint: 0x743333db
+Variable types: 8761 continuous, 8162 integer (8162 binary)
+Coefficient statistics:
+  Matrix range     [9e-01, 1e+03]
+  Objective range  [1e+00, 9e+04]
+  Bounds range     [1e+00, 2e+07]
+  RHS range        [5e+02, 2e+06]
+Found heuristic solution: objective -1.43766e+12
+Presolve removed 0 rows and 0 columns (presolve time = 9s) ...
+Presolve removed 6063 rows and 0 columns (presolve time = 14s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 16s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 21s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 26s) ...
+Presolve removed 12126 rows and 10436 columns (presolve time = 46s) ...
+Presolve removed 12126 rows and 10436 columns (presolve time = 50s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 55s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 61s) ...
+Presolve removed 12126 rows and 14226 columns (presolve time = 66s) ...
+Presolve removed 17521 rows and 16923 columns
+Presolve time: 67.75s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 72.40 seconds (27.88 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 3: -1.45016e+12 -1.45016e+12 -1.43766e+12 
+No other solutions better than -1.45016e+12
+
+Optimal solution found (tolerance 5.00e-03)
+Warning: max constraint violation (9.7081e-06) exceeds tolerance
+Best objective -1.450159791417e+12, best bound -1.450159791417e+12, gap 0.0000%
+Optimal Area_Res_Max: 20000000.0, with Objective Value: -1450159791416.9492
+    penalty_factor = 10  # Adjust as needed
+    m.setObjective(
+        gp.quicksum(deviation[t] - (penalty_factor * Area_Res_Max) for t in DF_Production.index),
+        GRB.MINIMIZE
+    )

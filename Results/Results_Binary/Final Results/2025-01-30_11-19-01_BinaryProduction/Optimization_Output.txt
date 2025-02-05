@@ -1,0 +1,63 @@
+Set parameter MIPGap to value 0.005
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 17521 rows, 16923 columns and 69795329 nonzeros
+Model fingerprint: 0x494eb508
+Variable types: 8761 continuous, 8162 integer (8162 binary)
+Coefficient statistics:
+  Matrix range     [9e-01, 1e+03]
+  Objective range  [1e-04, 1e+00]
+  Bounds range     [1e+00, 2e+07]
+  RHS range        [5e+02, 2e+06]
+Found heuristic solution: objective 1.373252e+10
+Presolve removed 0 rows and 0 columns (presolve time = 7s) ...
+Presolve removed 6063 rows and 0 columns (presolve time = 12s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 15s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 20s) ...
+Presolve removed 12126 rows and 6063 columns (presolve time = 25s) ...
+Presolve removed 12126 rows and 10436 columns (presolve time = 48s) ...
+Presolve removed 12126 rows and 10436 columns (presolve time = 52s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 59s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 61s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 68s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 71s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 76s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 81s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 86s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 90s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 96s) ...
+Presolve removed 12126 rows and 10437 columns (presolve time = 102s) ...
+Presolve removed 12126 rows and 10437 columns
+Presolve time: 104.31s
+Presolved: 5395 rows, 6486 columns, 20446738 nonzeros
+Variable types: 2697 continuous, 3789 integer (1776 binary)
+Found heuristic solution: objective 1.324632e+10
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.4788947e+09   1.702406e+08   0.000000e+00    111s
+     842    9.4329847e+09   2.348702e+07   0.000000e+00    115s
+    1643    9.8869663e+09   6.722750e+06   0.000000e+00    122s
+    1931    9.9750517e+09   1.036451e+07   0.000000e+00    125s
+    2791    1.0063698e+10   0.000000e+00   0.000000e+00    129s
+
+Root relaxation: objective 1.006370e+10, 2791 iterations, 19.51 seconds (1.78 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.0064e+10    0    2 1.3246e+10 1.0064e+10  24.0%     -  129s
+H    0     0                    1.006374e+10 1.0064e+10  0.00%     -  129s
+
+Explored 1 nodes (2791 simplex iterations) in 131.34 seconds (48.79 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 1.00637e+10 1.00637e+10 1.32463e+10 1.37325e+10 
+
+Optimal solution found (tolerance 5.00e-03)
+Best objective 1.006369796674e+10, best bound 1.006369786956e+10, gap 0.0000%
+Optimal Area_Res_Max: 500000.0, with Objective Value: 10063697966.735397
